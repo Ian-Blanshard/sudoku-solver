@@ -1,0 +1,39 @@
+/* styles for every element */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* style for background page */
+.game-page {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* title style */
+.header {
+    margin-bottom: 20px;
+}
+/* styles for game board area */
+.game-board {
+    background-color: grey;
+    padding: 10px;
+    box-shadow: 0px 12px 12px 0px;
+}
+/* styles for single number input box */
+.board-box {
+    margin: 2px 0.5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-width: 1.5px;   
+}
+/* remove arrow buttons from input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
